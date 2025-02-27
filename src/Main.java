@@ -54,7 +54,7 @@ public class Main {
         byte numberOfCans = 120;
         byte brownPaint = 2;
         byte whitePaint = 4;
-        int numberOfClasses = 120/(4+2);
+        int numberOfClasses = numberOfCans/(whitePaint +brownPaint);
         int amountOfWhitePaint = numberOfClasses*whitePaint;
         int amountOfBrownPaint = numberOfClasses*brownPaint;
         System.out.println("В школе, где " + numberOfClasses + " классов, нужно " + amountOfWhitePaint + " банок белой краски и " +  amountOfBrownPaint + " банок коричневой краски");
@@ -74,6 +74,7 @@ public class Main {
         float weightKg = justGrams/(float)grPerKg;
         System.out.println("Количество кг в спортзавтраке составляет " + weightKg + " кг");
         //Задача 7
+
 
 
 
