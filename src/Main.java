@@ -58,6 +58,8 @@ public class Main {
         int amountOfWhitePaint = numberOfClasses*whitePaint;
         int amountOfBrownPaint = numberOfClasses*brownPaint;
         System.out.println("В школе, где " + numberOfClasses + " классов, нужно " + amountOfWhitePaint + " банок белой краски и " +  amountOfBrownPaint + " банок коричневой краски");
+        // Задача 6
+
 
 
 
