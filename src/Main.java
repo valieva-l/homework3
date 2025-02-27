@@ -50,6 +50,19 @@ public class Main {
         int minutes4 = 44640;
         int machinePerformance4 = minutes4 * (numberOfBottles / numberOfMinutes);
         System.out.println("За 1 месяц машина произвела " + machinePerformance4 + " штук бутылок");
+        //Задача 5
+        byte numberOfCans = 120;
+        byte brownPaint = 2;
+        byte whitePaint = 4;
+        int numberOfClasses = 120/(4+2);
+        int amountOfWhitePaint = numberOfClasses*whitePaint;
+        int amountOfBrownPaint = numberOfClasses*brownPaint;
+        System.out.println("В школе, где " + numberOfClasses + " классов, нужно " + amountOfWhitePaint + " банок белой краски и " +  amountOfBrownPaint + " банок коричневой краски");
+
+
+
+
+
 
     }
 }
