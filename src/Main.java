@@ -59,6 +59,25 @@ public class Main {
         int amountOfBrownPaint = numberOfClasses*brownPaint;
         System.out.println("В школе, где " + numberOfClasses + " классов, нужно " + amountOfWhitePaint + " банок белой краски и " +  amountOfBrownPaint + " банок коричневой краски");
         // Задача 6
+        byte banana = 5;
+        short milk = 200;
+        byte iceCream = 2;
+        byte egg = 4;
+        byte gramBanana = 80;
+        byte oneMlMilk = 105;
+        byte gramIceCream = 100;
+        byte gramEgg = 70;
+        int gramMilk = milk/100;
+        int justGrams = (banana*gramBanana)+(oneMlMilk*gramMilk)+(iceCream*gramIceCream)+(egg*gramEgg);
+        System.out.println("Количество грамм в спортзавтраке составляет " + justGrams + " грамм");
+        int grPerKg = 1000;
+        float weightKg = justGrams/(float)grPerKg;
+        System.out.println("Количество кг в спортзавтраке составляет " + weightKg + " кг");
+        //Задача 7
+
+
+
+
 
 
 
