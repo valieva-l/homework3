@@ -28,6 +28,19 @@ public class Main {
         System.out.println(chamomile);
         byte azalea = 67;
         System.out.println(azalea);
+        //Задача 3
+        byte lyudmilaPavlovna = 23;
+        byte annaSergeevna = 27;
+        byte ekaterinaAndreevna = 30;
+        short sheetsOfPaper = 480;
+        int numberOfSheets = sheetsOfPaper/(lyudmilaPavlovna+annaSergeevna+ekaterinaAndreevna);
+        System.out.println("На каждого ученика рассчитано " + numberOfSheets + " листов бумаги");
+        // Задача 4
+
+
+
+
+
 
     }
 }
