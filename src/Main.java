@@ -74,6 +74,16 @@ public class Main {
         float weightKg = justGrams/(float)grPerKg;
         System.out.println("Количество кг в спортзавтраке составляет " + weightKg + " кг");
         //Задача 7
+        byte weight = 7;
+        short gramWeight1 = 250;
+        short gramWeight2 = 500;
+        int day1 = weight*1000/gramWeight1;
+        System.out.println(day1 + " дней уйдет на похудение, если спортсмен будет терять каждый день по 250 грамм");
+        int day2 = weight*1000/gramWeight2;
+        System.out.println(day2 + " дней уйдет на похудение, если спортсмен будет терять каждый день по 500 грамм");
+
+
+
 
 
 
