@@ -54,10 +54,10 @@ public class Main {
         byte numberOfCans = 120;
         byte brownPaint = 2;
         byte whitePaint = 4;
-        int numberOfClasses = numberOfCans/(whitePaint +brownPaint);
-        int amountOfWhitePaint = numberOfClasses*whitePaint;
-        int amountOfBrownPaint = numberOfClasses*brownPaint;
-        System.out.println("В школе, где " + numberOfClasses + " классов, нужно " + amountOfWhitePaint + " банок белой краски и " +  amountOfBrownPaint + " банок коричневой краски");
+        int numberOfClasses = numberOfCans / (whitePaint + brownPaint);
+        int amountOfWhitePaint = numberOfClasses * whitePaint;
+        int amountOfBrownPaint = numberOfClasses * brownPaint;
+        System.out.println("В школе, где " + numberOfClasses + " классов, нужно " + amountOfWhitePaint + " банок белой краски и " + amountOfBrownPaint + " банок коричневой краски");
         // Задача 6
         byte banana = 5;
         short milk = 200;
@@ -67,20 +67,51 @@ public class Main {
         byte oneMlMilk = 105;
         byte gramIceCream = 100;
         byte gramEgg = 70;
-        int gramMilk = milk/100;
-        int justGrams = (banana*gramBanana)+(oneMlMilk*gramMilk)+(iceCream*gramIceCream)+(egg*gramEgg);
+        int gramMilk = milk / 100;
+        int justGrams = (banana * gramBanana) + (oneMlMilk * gramMilk) + (iceCream * gramIceCream) + (egg * gramEgg);
         System.out.println("Количество грамм в спортзавтраке составляет " + justGrams + " грамм");
         int grPerKg = 1000;
-        float weightKg = justGrams/(float)grPerKg;
+        float weightKg = justGrams / (float) grPerKg;
         System.out.println("Количество кг в спортзавтраке составляет " + weightKg + " кг");
         //Задача 7
         byte weight = 7;
         short gramWeight1 = 250;
         short gramWeight2 = 500;
-        int day1 = weight*1000/gramWeight1;
+        int day1 = weight * 1000 / gramWeight1;
         System.out.println(day1 + " дней уйдет на похудение, если спортсмен будет терять каждый день по 250 грамм");
-        int day2 = weight*1000/gramWeight2;
+        int day2 = weight * 1000 / gramWeight2;
         System.out.println(day2 + " дней уйдет на похудение, если спортсмен будет терять каждый день по 500 грамм");
+        int daysOnAverage = (day1 + day2) / 2;
+        System.out.println(daysOnAverage + " дней может потребоваться в среднем, чтобы добиться результата похудения");
+        // Задача 8
+        int wagesMasha = 67760;
+        int wagesDenis = 83690;
+        int wagesKristina = 76230;
+        byte month = 12;
+        float percentageIncrease = 0.10f;
+        //Маша
+        float increaseMasha = wagesMasha * percentageIncrease;
+        float increaseWagesMasha = wagesMasha + increaseMasha;
+        int annualIncomeMashaOld = wagesMasha * month;
+        float annualIncomeMashaNew = increaseWagesMasha * month;
+        float annualIncomeDifferenceMasha = annualIncomeMashaNew - annualIncomeMashaOld;
+        System.out.println("Маша теперь получает " + increaseWagesMasha + " рублей. Годовой доход вырос на " + annualIncomeDifferenceMasha + " рублей");
+       //Денис
+        float increaseDenis = wagesDenis * percentageIncrease;
+        float increaseWagesDenis = wagesDenis + increaseDenis;
+        int annualIncomeDenisOld = wagesDenis * month;
+        float annualIncomeDenisNew = increaseWagesDenis * month;
+        float annualIncomeDifferenceDenis = annualIncomeDenisNew - annualIncomeDenisOld;
+        System.out.println("Денис теперь получает " + increaseWagesDenis + " рублей. Годовой доход вырос на " + annualIncomeDifferenceDenis + " рублей");
+        //Кристина
+        float increaseKristina = wagesKristina * percentageIncrease;
+        float increaseWagesKristina = wagesKristina + increaseKristina;
+        int annualIncomeKristinaOld = wagesKristina * month;
+        float annualIncomeKristinaNew = increaseWagesKristina * month;
+        float annualIncomeDifferenceKristina = annualIncomeKristinaNew - annualIncomeKristinaOld;
+        System.out.println("Кристина теперь получает " + increaseWagesKristina + " рублей. Годовой доход вырос на " + annualIncomeDifferenceKristina + " рублей");
+
+
 
 
 
